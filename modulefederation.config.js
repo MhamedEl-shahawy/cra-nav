@@ -6,7 +6,7 @@ module.exports = {
       "./Header": "./src/Header",
   },
   remotes: {
-    store: "store@https://todolist-nav.vercel.app/remoteEntry.js",
+    store: "host@https://host-mfe.vercel.app/remoteEntry.js",
     
 },
   filename: "remoteEntry.js",
