@@ -38,7 +38,7 @@ function Header() {
       <CssBaseline />
       <Toolbar>
         <Typography variant="h4" className={classes.logo}>
-          Navbar
+          Navbar {process.env.React_APP_TE}
         </Typography>
           <div className={classes.navlinks}>
              {count}
